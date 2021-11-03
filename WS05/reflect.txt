@@ -1,0 +1,17 @@
+Name:		Bair Suimaliev
+Student number: 159350198
+Email:		bsuimaliev@myseneca.ca
+Section:	IPC
+Workshop:       5 (at-home) Reflection
+
+This workshop helped me to learn about derived data type, which is complex, but more flexible in use than primitive data type. This type is called structure that is used to contain values of other data types including arrays and access them. In this workshop the structure was used to store information about employees, i.e. the id and age as an integer type, and salary as a double. And structure can also be declared as an array like other types of data, which I have done in this workshop as well. 
+
+But another interesting thing that I have learned is that structure can be declared in a separate file called header file, so it would be a multi-file source code. But the only advantage I can think of declaring the structure in a separate file is that it can be easily accessed in a multiple source code, so when you use this structure not only in one file, which I did not find really helpful in this workshop. After initializing the structure, one can declare an object of this structure type, which in my case was emp[SIZE], i.e. an array of structure, and the important thing to know is the values should be initialized as zero, to avoid undefined behavior. 
+
+To access the members of the structure you need to specify the structure name and the variable name you appeal to after the dot operator. And if it is an array of structure the element of the structure should be specified before dot. For instance, in the workshop 5 I accessed members of structure I wrote following line: “emp[i].id” for accessing the ids of employees. 
+
+Also, I noticed the similarity of array of structure and parallel arrays in use, however there is one advantage of array of structure over parallel arrays is that there is no need to insert only one index for array of structure while parallel arrays require to add index for every variable, which I find inconvenient, especially when I need to change a size of array. However, this makes it inefficient in using resources as well. While CPU needs to do calculation for only one array’s index when using array of structure, for parallel array it makes calculation for every index of the arrays which consumes more resources of CPU. 
+
+And I as assume the most important thing I learned by this workshop is that not everything that works is done in a proper way. I came to this conclusion while doing my at-home portion. Due to the irrational code of my in-lab portion, I faced lots of problems in at-home part of workshop. Thus, I will be more cautious with writing of code and try to come up with as much efficient way to code my program as possible.
+
+

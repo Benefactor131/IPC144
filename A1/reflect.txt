@@ -1,0 +1,23 @@
+Name:           Bair Suimaliev
+Student number: 159350198
+Email:          bsuimaliev@myseneca.ca
+Section:        IPC
+
+In this assignment I corrected the following lines of code in contacts.c file:
+31 and 55: %s%*c into %c%*c, these lines had to be corrected, since we prompt the user to enter one character, i.e. a char type, but the %s conversion is used for a string of characters and terminted by the "\0". And this can cause a corruption of a variable and prevent the program from working.
+57: yesNo == 'Y' instead of yesNo == "Y", because when we use %c the character should be segregated by '' instead of "".
+And one line in contacts.h file: 
+15: the number of elements in middleInitial array of char type must be 7 instead of 5, since the array should contain extra element for null terminator "\n" and there are 6 elements used in contacs.c file for middleInitial variable in the line 36.
+
+The structure Contact in contacts.h header file contains another three structures within. And the elements of the structure are stored in the order they were declared. First, struct element is structure Name, which occupies 76 bytes. Normally, it would take 72 bytes, however the struct data type has a concept, which is called padding. This concept is needed for optimizing the CPU cycles for accessing data. And in 32-bit environment CPU can read up to 4 bytes at a time. Consequently, the char array firstName which takes 31 bytes, will take 32 bytes, middleInitial array will take 8 bytes instead of 5 and with the total of 76 bytes. Next struct element is Address structure takes 98 bytes for variables and 6 bytes for padding and 104 bytes in total. The last element, Number structure takes 36 bytes on the whole. Altogether the Contact struct occupies 216 bytes.
+
+In the contacts.c file there is a repetition of the if construct and I have come up with one way how it can be optimized. In order to rationalize and ease the code, the function prototype has to be declared, so when the if construct must be used, it can be easily executed by calling a function prototype.  For this purpose I used the following prototype: char yesno(char y); and the way I designed it is 
+char yesno(char y) {
+    if (y == 'y' || y == 'Y');
+
+    return y;
+} 
+
+And this looks the following way: if(yesno(yesNo)){…}, so when instead of writing the y == 'y' || y == 'Y' line I can just write yesno(yesNo). 
+The %*c is utilized for casting the previous input aside, so the %*c allows to accept a new input from the user without interfering with previous values. 
+The %[^\n] specifier can read the input until a new line or end of the line, while %s can read until a whitespace or end of the line. In this case there were input that required spaces between the words which makes %[^\n] suitable for this assignment.   
