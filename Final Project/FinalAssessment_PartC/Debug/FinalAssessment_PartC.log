@@ -1,0 +1,21 @@
+﻿cl : command line warning D9025: overriding '/analyze-' with '/analyze:stacksize32768'
+  main.c
+C:\Users\Bair\OneDrive - Seneca\My Academic Activity\IPC144\IPC-Final Assessment\Part C Group Project\FinalAssessment_PartC\main.c(18,1): warning C4244: 'initializing': conversion from 'double' to 'char', possible loss of data
+  stock.c
+C:\Users\Bair\OneDrive - Seneca\My Academic Activity\IPC144\IPC-Final Assessment\Part C Group Project\FinalAssessment_PartC\stock.c(63,7): warning C4013: 'exit' undefined; assuming extern returning int
+C:\Users\Bair\OneDrive - Seneca\My Academic Activity\IPC144\IPC-Final Assessment\Part C Group Project\FinalAssessment_PartC\stock.c(55,1): warning C4047: 'initializing': 'FILE *' differs in levels of indirection from 'int'
+C:\Users\Bair\OneDrive - Seneca\My Academic Activity\IPC144\IPC-Final Assessment\Part C Group Project\FinalAssessment_PartC\stock.c(208,48): warning C4244: '-=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Bair\OneDrive - Seneca\My Academic Activity\IPC144\IPC-Final Assessment\Part C Group Project\FinalAssessment_PartC\stock.c(235,59): warning C4047: '==': 'int' differs in levels of indirection from 'char [12]'
+C:\Users\Bair\OneDrive - Seneca\My Academic Activity\IPC144\IPC-Final Assessment\Part C Group Project\FinalAssessment_PartC\stock.c(235,115): warning C4047: '==': 'int' differs in levels of indirection from 'char [14]'
+C:\Users\Bair\OneDrive - Seneca\My Academic Activity\IPC144\IPC-Final Assessment\Part C Group Project\FinalAssessment_PartC\stock.c(290,6): warning C4101: 'product': unreferenced local variable
+  Running Code Analysis for C/C++...
+C:\Users\Bair\OneDrive - Seneca\My Academic Activity\IPC144\IPC-Final Assessment\Part C Group Project\FinalAssessment_PartC\stock.c(63): warning C28278: Function exit appears with no prototype in scope.  Only limited analysis can be performed. Include the appropriate header or add a prototype. This warning also occurs if parameter or return types are omitted in a function definition.
+C:\Users\Bair\OneDrive - Seneca\My Academic Activity\IPC144\IPC-Final Assessment\Part C Group Project\FinalAssessment_PartC\stock.c(65): warning C6387: 'fp' could be '0':  this does not adhere to the specification for the function 'fscanf'. : Lines: 55, 56, 57, 58, 59, 60, 62, 63, 65
+C:\Users\Bair\OneDrive - Seneca\My Academic Activity\IPC144\IPC-Final Assessment\Part C Group Project\FinalAssessment_PartC\stock.c(73): warning C6054: String 'name' might not be zero-terminated.: Lines: 55, 56, 57, 58, 59, 60, 65, 67, 71, 73
+C:\Users\Bair\OneDrive - Seneca\My Academic Activity\IPC144\IPC-Final Assessment\Part C Group Project\FinalAssessment_PartC\stock.c(94): warning C6387: 'fp' could be '0':  this does not adhere to the specification for the function 'fclose'. See line 65 for an earlier location where this can occur: Lines: 55, 56, 57, 58, 59, 60, 62, 63, 65, 94
+C:\Users\Bair\OneDrive - Seneca\My Academic Activity\IPC144\IPC-Final Assessment\Part C Group Project\FinalAssessment_PartC\stock.c(164): warning C6031: Return value ignored: 'scanf'.
+C:\Users\Bair\OneDrive - Seneca\My Academic Activity\IPC144\IPC-Final Assessment\Part C Group Project\FinalAssessment_PartC\stock.c(168): warning C6031: Return value ignored: 'scanf'.
+C:\Users\Bair\OneDrive - Seneca\My Academic Activity\IPC144\IPC-Final Assessment\Part C Group Project\FinalAssessment_PartC\stock.c(179): warning C6031: Return value ignored: 'scanf'.
+C:\Users\Bair\OneDrive - Seneca\My Academic Activity\IPC144\IPC-Final Assessment\Part C Group Project\FinalAssessment_PartC\stock.c(186): warning C6031: Return value ignored: 'scanf'.
+  Generating Code...
+  FinalAssessment_PartC.vcxproj -> C:\Users\Bair\OneDrive - Seneca\My Academic Activity\IPC144\IPC-Final Assessment\Part C Group Project\Debug\FinalAssessment_PartC.exe
