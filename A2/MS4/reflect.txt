@@ -1,0 +1,14 @@
+Name:           Bair Suimaliev
+Student number: 159350198
+Email:          bsuimaliev@myseneca.ca
+Section:        IPC
+
+As in the first part of this assignment, I had a lot of practice declaring function prototypes and defining them, which helps me to understand, why do we need to declare them, even better. 
+
+While defining those functions I practiced in applying new string functions like strlen and strcmp to a source code. I used strlen to define exact number of characters, and check if the string is empty or not; strcmp was utilized for sorting contacts by their cell phone numbers, if the first non-matching number of the first contact is higher than that of the second contact by ASCII code value, then they are swapped and the whole process is iterated until the last element is checked. Concerning sorting of contacts, what really helped me is the hint to the course notes, where the sorting process was explained, and gave different types and examples of sorting.
+
+Furthermore, with the help the second part of assignment 2 I realized how I can check if the string contains only digits, and by parity of reasoning check if the string contains only words. In addition, the second assignment gave me opportunity to practice more with pointers, and a better grasp of when and how to use them.
+
+The most valuable and frequent in use functions were getTenDigitPhone, and findContactIndex. These functions were used in searchContacts, updateContact, and deleteContact, so I did not have to write the similar set of instructions each time, which had spared me plenty of time, and kept the code easy to read. In addition, during assignment completion, I had to correct getTenDigitPhone several times, and if I did not declare it, I would have to fix them in every function repeatedly.
+
+Yes, the only thing I have not practiced in this course is the work with files, to have a full insight on everything in the C programming. And another reason to include files in this assignment is that when entering input data by yourself takes a lot of time, especially in this assignment where we have a great number of inputs, and reading from files containing all the data just with a few commands.

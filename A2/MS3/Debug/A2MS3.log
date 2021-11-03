@@ -1,0 +1,7 @@
+﻿  contactHelpers.c
+C:\Users\Bair\OneDrive - Seneca\My Academic Activity\IPC144\IPC-Project-master\A2\MS3\contactHelpers.c(190,29): warning C4047: 'function': 'int' differs in levels of indirection from 'char *'
+C:\Users\Bair\OneDrive - Seneca\My Academic Activity\IPC144\IPC-Project-master\A2\MS3\contactHelpers.c(190,21): warning C4024: 'isalpha': different types for formal and actual parameter 1
+  contacts.c
+  Generating Code...
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\Bair\OneDrive - Seneca\My Academic Activity\IPC144\IPC-Project-master\A2\MS3\Debug\A2MS3.exe : fatal error LNK1120: 1 unresolved externals
