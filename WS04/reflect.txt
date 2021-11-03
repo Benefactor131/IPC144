@@ -1,0 +1,17 @@
+Name:		Bair Suimaliev
+Student number: 159350198
+Email:		bsuimaliev@myseneca.ca
+Section:	IPC
+Workshop:	4 (at-home) Reflection
+
+Completing this workshop helped me to learn how about the data structure that stores a collection of elements, which is an array. Basically, using arrays can simplify the code, so instead of declaring dozens of single variables of the same type, a programmer can declare only one array variable. Moreover, I find it useful that applying arrays can considerably optimizes the processing of data, therefore the process of a program will be faster and will engage less resources of the PC. In this workshop the only alternative of arrays that I have come up with is using multiple variables for storing values of highest and lowest temperature of each day, however it brings unnecessary lines of code and makes it more complex, therefore I stick with arrays. 
+
+Also, I found out that arrays are good in combination with iteration constructs. If I want to display all the elements of an array or as we did in the workshop, to prompt the user to enter the values for elements, the utilization of a for loop would be a good choice, which simplifies the code even more.
+Why is it a best practice to initialize iterator variables to a value of zero? Since without initializing variable the value sets to garbage value, it can cause an undefined behavior of a program, which can lead to absurd values.
+
+What is more, in the workshop №4 I learned how to apply parallel arrays. Parallel arrays are used to store related information in the same index. Particularly, in this workshop the parallel arrays were used to store the highest and lowest temperatures of the certain days. This way you can easily access the data, consequently if you know the index of the day you can find out both highest and lowest temperature of the day. What I find good about parallel arrays is that they are easy to understand, especially for me who has not profound knowledge in programming yet.
+
+What I find the most difficult in this workshop is the calculating the average temperature up to a certain number of days. The problem was that the first calculation of the mean temperature was correct, however the following computations were wrong. This was due to the fact that I did not set the value of the previous calculation to zero, which led to accumulation of the values and this way the output was incorrect. So, now I know that the values for the variables should be nullified in the loop calculations.
+
+
+
