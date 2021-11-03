@@ -1,0 +1,7 @@
+This workshop helped to learn about declaring aliases for constant variables with #define and how to create iteration constructs and where I can apply them. Also, the workshop 3 gave me the opportunity to practice the simplest selection construct which is optional path using an "if" command and learn about nesting one logic construct within another.
+
+While doing this workshop I have not used pseudo-coding or flowcharting before making a solution. However, I regret skipping this step, because the process of making the code solution was unorganized and in the beginning I was confused where to start from. And making a pseudo-code beforehand could save my time spent on the workshop.
+
+Basically, there are three types of iteration constructs: "while", "for" and "do-while". Nevertheless, in this program I used only two of them: "while" and "for" constructs, as they were more suitable for this particular task, since they do not have a drawback which "do-while" has. The minus of "do-while" command is that it does the sequence before checking the condition, which could result in unnessary tangling of my code.
+
+In this workshop I used the black box test technique, i.e I checked whether my output was correct or not. And the method I applied to debug my code is build and execute method. So, I tried to execute my application and to find the problematic part of code.

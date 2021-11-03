@@ -1,0 +1,4 @@
+C:\Users\Bair\My Academic Activity\IPC144\IPC-Workshops-master\WS02\in_lab\Debug\in_lab.exe
+C:\Users\Bair\My Academic Activity\IPC144\IPC-Workshops-master\WS02\in_lab\Debug\in_lab.pdb
+C:\Users\Bair\OneDrive - Seneca\My Academic Activity\IPC144\IPC-Workshops-master\WS02\in_lab\Debug\in_lab.exe
+C:\Users\Bair\OneDrive - Seneca\My Academic Activity\IPC144\IPC-Workshops-master\WS02\in_lab\Debug\in_lab.pdb

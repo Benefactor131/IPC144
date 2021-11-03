@@ -1,0 +1,6 @@
+﻿  in_home.c
+C:\Users\Bair\OneDrive - Seneca\My Academic Activity\IPC144\IPC-Workshops-master\WS02\in_lab\in_home.c(21,18): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Bair\OneDrive - Seneca\My Academic Activity\IPC144\IPC-Workshops-master\WS02\in_lab\in_home.c(23,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Bair\OneDrive - Seneca\My Academic Activity\IPC144\IPC-Workshops-master\WS02\in_lab\in_home.c(27,27): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Bair\OneDrive - Seneca\My Academic Activity\IPC144\IPC-Workshops-master\WS02\in_lab\in_home.c(29,49): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  in_lab.vcxproj -> C:\Users\Bair\OneDrive - Seneca\My Academic Activity\IPC144\IPC-Workshops-master\WS02\in_lab\Debug\in_lab.exe

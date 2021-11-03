@@ -1,0 +1,7 @@
+The workshop 2 helped me to comprehend such things as data types and how to give a type of data to a variable, in particular integral and floating-point types.
+
+Also, I found out how to make simple arithmetic operations in C such as addition, subtraction, multiplication, division, and remaindering. And I learned how to use ‘scanf’ command, which is used to read an input from the user.
+
+What is more, I have learned how to convert operands from one data type to another, and this process is called casting. And this process helped me to figure out that conversion from floating-point value into integer value is the best practice when executing calculations. It is because, integer arithmetic is faster and easier than using decimals. 
+
+Finally, one of the most useful things that I learned from this workshop is the modulo operation. And in some situations, it can be better to use modulus operator instead of division or subtraction. For instance, for finding a remainder it takes less steps to use modulus than it is to use division or subtraction. 
